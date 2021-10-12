@@ -1,4 +1,4 @@
-var saveBtn = $(".btn");
+var saveBtn = $(".saveBtn");
 
 // GIVEN I am using a daily planner to create a schedule
 // WHEN I open the planner
@@ -47,17 +47,26 @@ var loadTask = function() {
     //write within for loop 
     if ( textareaArray[i] > currentTime) {
       //$("p:first").addClass("intro");
-      $(id).addClass("bg-success");
+      $(id).addClass("bg-secondary");
       //$("p").removeClass("intro");
       $(id).removeClass("bg-primary");
 
     } else if (textareaArray[i] < currentTime) {
-      $(id).addClass("bg-secondary");
+      $(id).addClass("bg-info");
       $(id).removeClass("bg-primary");
     }
-  }
-  
+  } 
 };
+
+function clear() {
+  var textareaArray= ["9", "10", "11","12", "13", "14", "15", "16","17"];
+  for (var i = 0; i < textareaArray.length; i++) {
+    var id = "#" + textareaArray[i];
+    window.localStorage.removeItem(textareaArray[i]);
+    $(id).val("");
+}
+};
+$("#clearCalendar").click(clear);
 
 // WHEN I view the time blocks for that day
 // THEN each time block is color-coded to indicate whether it is in the past, present, or future
