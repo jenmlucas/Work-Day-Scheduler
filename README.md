@@ -18,8 +18,8 @@ Javascript
 [Work Day Scheduler](https://jenmlucas.github.io/Work-Day-Scheduler/ "Work Day Scheduler")
 
 ## Usage
-This is how the website will show on your device. 
-    ![Website Screenshot](./assets/images/screenshot.png)
+This is how the website will show on your device.
+![Website Screenshot](./assets/images/screenshot.png)
 
 ## Credits
 To give thanks to all who have helped create this product.
