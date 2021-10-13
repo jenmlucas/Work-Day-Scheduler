@@ -1,20 +1,26 @@
 # Work-Day-Scheduler
 
 ## Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+HTML 
+• Used to create time blocks for each hour of a work day. 
+• Optimized code by using Bootstrap classes to be able to organize the content with the html file. 
+
+CSS
+• Used Bootstrap to customize each time block. 
+
+Javascript
+• Created an interactive calender where you can not only save notes to localStorage, but also is able to tell you the current time, past time and future times, based on the color of the text's body.
+• Made the code easier to read by using some shorthand syntax.
+• Used the moment() function in order to display the current date at the top of the page 
 
 ## Production Website
+
 [Work Day Scheduler](https://jenmlucas.github.io/Work-Day-Scheduler/ "Work Day Scheduler")
 
 ## Usage
-    
-    ![Website Screenshot](./images/)
+This is how the website will show on your device. 
+    ![Website Screenshot](./assets/images/screenshot.png)
 
-    
 ## Credits
 To give thanks to all who have helped create this product.
 
@@ -30,13 +36,9 @@ To give thanks to all who have helped create this product.
 ©Copyright 2021, JenMLucas. All Rights Reserved
 
 ## Badges
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-## Features
-If your project has a lot of features, list them here.
-## How to Contribute
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-## Tests
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
-From <https://app.slack.com/client/T02BYV17C5S/D02CN4K6GKV> 
+![badmath](https://img.shields.io/badge/Html-35%25-green)
+
+![badmath](https://img.shields.io/badge/Javascript-35%25-blue)
+
+![badmath](https://img.shields.io/badge/CSS-30%25-red)
