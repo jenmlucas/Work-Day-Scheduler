@@ -1,17 +1,7 @@
 # Work-Day-Scheduler
 
 ## Description
-HTML 
-• Used to create time blocks for each hour of a work day. 
-• Optimized code by using Bootstrap classes to be able to organize the content with the html file. 
-
-CSS
-• Used Bootstrap to customize each time block. 
-
-Javascript
-• Created an interactive calender where you can not only save notes to localStorage, but also is able to tell you the current time, past time and future times, based on the color of the text's body.
-• Made the code easier to read by using some shorthand syntax.
-• Used the moment() function in order to display the current date at the top of the page 
+Interactive calendar that allows the user to save notes to localStorage for future use.It also tells you the current time, past time and future times, based on the color of the text's body, to help keep track of the user's day. 
 
 ## Production Website
 
